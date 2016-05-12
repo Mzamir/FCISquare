@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view_controller.activities.HomeActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_copy_2"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_location_found"
+        android:icon="@drawable/gps"
+        android:title="action_location_found"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sortByCheckin"
+        android:orderInCategory="100"
+        android:title="By num of Checkin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortByRate"
+        android:orderInCategory="100"
+        android:title="By Rate"
+        app:showAsAction="never" />
+</menu>

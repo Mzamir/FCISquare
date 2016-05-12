@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_myPlaces"
+            android:title="My Places" />
+
+        <item
+            android:id="@+id/nav_followers"
+            android:title="Followers" />
+
+        <item
+            android:id="@+id/nav_checkins"
+            android:title="Checkin" />
+        <item
+            android:id="@+id/nav_actions"
+            android:title="Actions" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:title="Log out" />
+
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="Share" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="Send" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>
